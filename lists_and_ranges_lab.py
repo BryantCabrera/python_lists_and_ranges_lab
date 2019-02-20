@@ -40,3 +40,14 @@ home_town = {
     'population': 4000000
 }
 print('I was born in ', home_town['city'], ', ', home_town['state'], ' -- population of ', home_town['population'], '.')
+
+
+"""
+Exercise 5
+Iterate over the key: value pairs in home_town and print a string for each item, for example:
+"city = Arcadia"
+"state = California"
+"population = 58000"
+"""
+for key in home_town:
+    print(key, '=', home_town[key])
