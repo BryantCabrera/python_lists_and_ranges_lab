@@ -84,3 +84,12 @@ awesome_students = [students[i] + ' is awesome!' for i in range(0, len(students)
 
 for student in awesome_students:
     print(student)
+
+
+"""
+Exercise 8
+Using the tuple foods and list comprehension within a for loop, print each food string that contains the letter a.
+"""
+food_a = [food for food in foods if ('a' in food)]
+for food in food_a:
+    print(food)
