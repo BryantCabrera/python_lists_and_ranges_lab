@@ -51,3 +51,22 @@ Iterate over the key: value pairs in home_town and print a string for each item,
 """
 for key in home_town:
     print(key, '=', home_town[key])
+
+
+"""
+Exercise 6
+Create an empty list named cohort.
+
+Using a for loop, add one dictionary to the cohort list for each student name. Each dictionary should have this shape:
+
+ {
+ 	'student': 'Tina',
+ 	'fav_food' 'Cheeseburger'
+ }
+Iterate over cohort printing out each element.
+"""
+cohort = []
+for i in range(0, len(students)):
+    new_element = dict(student = students[i], fav_food = foods[i])
+    cohort.append(new_element)
+print(cohort)
