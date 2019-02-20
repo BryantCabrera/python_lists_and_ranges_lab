@@ -18,3 +18,11 @@ foods = ('Korean BBQ', 'tacos', 'steak', 'burrito', 'pho', 'korean BBQ 2', 'chee
 
 for food in foods:
     print(food + ' is a good food.')
+
+
+"""
+Exercise 3
+Using a for loop, print just the last two food strings from foods.
+"""
+for i in range (len(foods)-2, len(foods)):
+    print(foods[i])
