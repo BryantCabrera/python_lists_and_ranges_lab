@@ -26,3 +26,17 @@ Using a for loop, print just the last two food strings from foods.
 """
 for i in range (len(foods)-2, len(foods)):
     print(foods[i])
+
+
+"""
+Exercise 4
+Create a dictionary named home_town containing the keys of city, state and population.
+Print a string with this format:
+"I was born in city, state - population of population"
+"""
+home_town = {
+    'city': 'Los Angeles',
+    'state': 'CA',
+    'population': 4000000
+}
+print('I was born in ', home_town['city'], ', ', home_town['state'], ' -- population of ', home_town['population'], '.')
