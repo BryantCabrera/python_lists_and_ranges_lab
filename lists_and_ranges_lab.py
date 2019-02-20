@@ -69,4 +69,6 @@ cohort = []
 for i in range(0, len(students)):
     new_element = dict(student = students[i], fav_food = foods[i])
     cohort.append(new_element)
-print(cohort)
+
+for element in cohort:
+    print(element)
