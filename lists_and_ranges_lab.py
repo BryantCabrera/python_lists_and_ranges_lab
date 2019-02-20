@@ -72,3 +72,15 @@ for i in range(0, len(students)):
 
 for element in cohort:
     print(element)
+
+
+"""
+Exercise 7
+Using the list of students and list comprehension, assign to a variable named awesome_students a new list containing strings similar to this:
+["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
+Iterate over awesome_students printing out each string.
+"""
+awesome_students = [students[i] + ' is awesome!' for i in range(0, len(students))]
+
+for student in awesome_students:
+    print(student)
