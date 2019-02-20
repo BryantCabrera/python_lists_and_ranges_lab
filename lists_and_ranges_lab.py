@@ -14,3 +14,7 @@ Exercise 2
 Create a tuple named foods containing the same number of foods (strings) as there are names in the students list.
 Use a for loop to print out the string "food goes here is a good food"
 """
+foods = ('Korean BBQ', 'tacos', 'steak', 'burrito', 'pho', 'korean BBQ 2', 'cheese fries')
+
+for food in foods:
+    print(food + ' is a good food.')
